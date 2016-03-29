@@ -104,5 +104,11 @@ namespace Controller
             return amigo;
         }
 
+        private void atualizarDataGrid()
+        {
+
+            DataGridViewAmigo.DataSource = controle.ListarDesejosPorAmigo();
+
+        }
     }
 }
